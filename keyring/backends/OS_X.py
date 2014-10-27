@@ -45,7 +45,7 @@ class Keyring(KeyringBackend):
         try:
             # set up the call for security.
             cmd = [
-                'security',
+                'Docurated Sync App',
                 SecurityCommand('add', self.store),
                 '-a', username,
                 '-s', service,
@@ -68,7 +68,7 @@ class Keyring(KeyringBackend):
         try:
             # set up the call to security.
             cmd = [
-                'security',
+                'Docurated Sync App',
                 SecurityCommand('find', self.store),
                 '-g',
                 '-a', username,
@@ -106,7 +106,7 @@ class Keyring(KeyringBackend):
             username = ''
         try:
             cmd = [
-                'security',
+                'Docurated Sync App',
                 SecurityCommand('delete', self.store),
                 '-a', username,
                 '-s', service,
