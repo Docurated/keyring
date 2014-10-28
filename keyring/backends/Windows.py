@@ -14,12 +14,13 @@ try:
     from win32ctypes import pywintypes
     from win32ctypes import win32cred
     # force demand import to raise ImportError
-    win32cred.__name__
+    # win32cred.__name__
 except ImportError:
     # fallback to pywin32
     try:
-        import pywintypes
-        import win32cred
+        print "dont want none of these"
+        # import pywintypes
+        # import win32cred
     except ImportError:
         pass
 
