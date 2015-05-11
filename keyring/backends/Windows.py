@@ -18,7 +18,6 @@ try:
 except ImportError:
     # fallback to pywin32
     try:
-        print "dont want none of these"
         # import pywintypes
         # import win32cred
     except ImportError:
