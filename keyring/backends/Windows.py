@@ -18,6 +18,7 @@ try:
 except ImportError:
     # fallback to pywin32
     try:
+        pass
         # import pywintypes
         # import win32cred
     except ImportError:
